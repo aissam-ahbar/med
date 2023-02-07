@@ -37,6 +37,6 @@ jobs:
         run: |
           git config --local user.email ${{ secrets.EMAIL }}
           git config --local user.name ${{ secrets.USERNAME }}
-          git add .
+          git add *.br
           git commit -m "Fetching data"
-          git push -f https://${{ secrets.ECO_SECRET }}@github.com/aissam-ahbar/med.git main
+          git push -f https://aissam-ahbar${{ secrets.ECO_SECRET }}@github.com/aissam-ahbar/med.git main

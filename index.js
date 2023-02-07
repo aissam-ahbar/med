@@ -4,8 +4,8 @@ const request = require('request');
 
 const city = 'Paris';
 const url = 'https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/medecins/exports/json?lang=fr&refine=commune%3A%22' + city + '%22&timezone=Europe%2FBerlin';
-const inputFile = 'large-file.txt';
-const outputFile = 'large-file.txt.br';
+const inputFile = 'large-file.json';
+const outputFile = city + '.json.br';
 
 console.log('Start reading & compressing ' + city);
 

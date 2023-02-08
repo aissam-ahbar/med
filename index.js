@@ -12,15 +12,15 @@ console.log('Start reading & compressing ' + city);
 request(url)
   .pipe(fs.createWriteStream(inputFile))
   .on('finish', () => {
-    const readStream = fs.createReadStream(inputFile);
-    const writeStream = fs.createWriteStream(outputFile);
-    const brotli = zlib.createBrotliCompress();
+    //const readStream = fs.createReadStream(inputFile);
+    //const writeStream = fs.createWriteStream(outputFile);
+    //const brotli = zlib.createBrotliCompress();
 
-    const stream = readStream.pipe(brotli).pipe(writeStream);
+    //const stream = readStream.pipe(brotli).pipe(writeStream);
 
-    stream.on('finish', () => {
-      console.log('Done compressing ' + city + ' 😎');
-    });
+    //stream.on('finish', () => {
+    //  console.log('Done compressing ' + city + ' 😎');
+    //});
   });
 
 /**

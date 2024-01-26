@@ -25993,6 +25993,43 @@
         },
         {
             "datasetid": "annuaire-des-professionnels-de-sante",
+            "recordid": "2a9fd5a37da0e1995bc262a7d06999c76d7ec39c",
+            "fields": {
+                "civilite": "Homme",
+                "code_profession": 45,
+                "coordonnees": [
+                    43.599127,
+                    3.903875
+                ],
+                "nom_dep": "HERAULT",
+                "convention": "Secteur 1 ou conventionné",
+                "nom": "ROBIN RICHARD",
+                "sesam_vitale": "Lecteur de carte Sesam Vitale",
+                "code_postal": "34000",
+                "ccam_phase": "ALQP0030",
+                "actes": "Test d'évaluation d'une dépression",
+                "nature_exercice": "Libéral intégral",
+                "telephone": "04.67.99.06.36",
+                "libelle_profession": "Médecin généraliste",
+                "code_insee": "34172",
+                "nom_com": "Montpellier",
+                "adresse": "CABINET MEDICAL JACQUES COEUR BUREAU 2B BAT B 50 RUE RAY CHARLES  34000 MONTPELLIER",
+                "types_actes": "Actes techniques médicaux (hors imagerie)",
+                "codes_ccam": "ALQP003",
+                "nom_epci": "Montpellier Méditerranée Métropole",
+                "nom_reg": "OCCITANIE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.903875,
+                    43.599127
+                ]
+            },
+            "record_timestamp": "2019-04-04T12:51:27.129Z"
+        },
+        {
+            "datasetid": "annuaire-des-professionnels-de-sante",
             "recordid": "7bff9f75605946ae1ebb5db82fb122272a79c17a",
             "fields": {
                 "civilite": "Homme",
